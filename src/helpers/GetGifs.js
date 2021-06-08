@@ -7,7 +7,7 @@ export const getGifs = async(category) => {
         return {
             id: el.id,
             title: el.title,
-            url: el.images ? .downsized_medium.url
+            url: el.images?.downsized_medium.url
         }
     });
 
